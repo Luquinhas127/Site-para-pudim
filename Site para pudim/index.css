@@ -1,0 +1,67 @@
+/* Estilos gerais */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f2c94c;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Estilos específicos para a seção de receitas */
+#receita {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+img {
+    max-width: 70%;
+    height: auto;
+    margin-left: 115px;
+}
+
+.SuaIrma{
+    display: flex;
+}
+
+.conteudo {
+    display: flex;
+    align-items: center; /* Alinhar verticalmente o conteúdo */
+}
+
+.texto {
+    flex: 0; /* O texto ocupará o dobro do espaço da imagem à esquerda */
+}
+
+.SeuPai{
+    width: 350px;
+}
